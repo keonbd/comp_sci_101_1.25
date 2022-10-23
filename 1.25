@@ -1,0 +1,9 @@
+# Enter your solution here
+import math
+radius = int(input())
+print(f'Enter the radius :\n\n')
+area = math.pi * (radius ** 2)
+circumference = 2 * math.pi * radius
+area = round(area, 4)
+print('The area is',f'{area}')
+print(f'The circumference is {circumference:.4f}')
